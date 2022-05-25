@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(26, 49, 150);
+}
+
+header {
+    background-color: whitesmoke;
+    border: solid 3px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 100px;
+}
+
+nav {
+    background-color:#E03D76;
+}
+
+h1 {
+    float:none;
+    width: 100px;
+    margin-right: 200px;
+}
+
+section {
+    background-color: orange;
+}
+
+img {
+    float:none;
+    margin-left:50px;
+}
