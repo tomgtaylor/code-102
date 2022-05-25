@@ -1,16 +1,17 @@
 body {
-    background-color: rgb(26, 49, 150);
+    background-color:#26BCE0;
 }
 
 header {
-    background-color: whitesmoke;
+    background-color:#eb82a7;
     border: solid 3px rgb(0, 0, 0);
     padding: 10px;
-    margin: 100px;
+    margin: 20px;
 }
 
 nav {
-    background-color:#E03D76;
+    background-color:#E0CF10;
+    border:solid 5px #00566b;
 }
 
 h1 {
@@ -20,10 +21,13 @@ h1 {
 }
 
 section {
-    background-color: orange;
+    background-color: #E0CF10;
+    border:solid black 3px ;
+    padding: 1%;
 }
 
 img {
     float:none;
-    margin-left:50px;
+    margin-left:20px;
+    border:solid black;
 }
