@@ -4,14 +4,15 @@ body {
 
 header {
     background-color:#eb82a7;
-    border: solid 3px rgb(0, 0, 0);
+    border: dotted 3px rgb(0, 0, 0);
     padding: 10px;
     margin: 20px;
 }
 
 nav {
     background-color:#E0CF10;
-    border:solid 5px #00566b;
+    border:dashed 5px #00566b;
+    border-style: dotted;
 }
 
 h1 {
