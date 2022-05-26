@@ -28,6 +28,7 @@ section {
 }
 
 img {
+    background-color: none;
     float:none;
     margin-left:20px;
     border:solid black;
