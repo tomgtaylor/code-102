@@ -22,9 +22,13 @@
         </nav>
         <hr>
         <a href="https://austinlimanek.github.io/science-education/">Click this link to view my partner's page!</a><br><hr><br>
+<!-- -------------------------------------   -->
 
         <button onclick="func1()">Don't you dare click here.</button>
         <script src="app.js"></script>
+        <script>ratePage();</script>
+        
+<!-- -------------------------------------   -->
             <hr>
             <label for="fname"><b>First name</b></label>
             <input type="text" id="fname" name="fname">
@@ -32,6 +36,7 @@
     </header>
 
     <main>
+        <script>askName();</script>
         <section id="physics"> <h2>Physics</h2>
         <img src="https://www.placecage.com/g/200/300" alt="Image of physics.">
         <h3><u>Examples of Physics</u>:</h3>
@@ -56,6 +61,16 @@
                 <a href="https://en.wikipedia.org/wiki/Chemistry">Link to Chemistry Info</a>
                 <button onclick="func3()">Click to learn a Chemistry fact.</button>
             </section><br>
+<!-- ------------------------------------- Practice JS  -->
+            <section>
+                <h2>Practicing Code</h2>
+                <p>Type "code" in box 1: </p>
+                <input id="code1">
+                <button onclick="submit()">Submit</button>
+                <h3>Math Practice</h3>
+                <button onclick="askMath()">1 + 2 = ? (Click this button to guess.) </button>Click left button to guess.<br>
+            </section>
+<!-- -------------------------------------  -->
             <section id="biology">Biology</section>
                 <section id="geology">Geology</section>
         </main>
